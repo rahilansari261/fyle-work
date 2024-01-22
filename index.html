@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Fyle Github Assignment</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="search-container">
+          <input
+            type="text"
+            id="usernameInput"
+            placeholder="Enter username..."
+          />
+          <div id="searchResults" class="search-results">
+            
+          </div>
+        </div>
+
+        <div class="theme-switch">
+          <img src="sun.svg" alt="Light Mode" id="lightModeIcon" />
+        </div>
+      </div>
+      <div class="user-container" id="user-info"></div>
+
+      <div class="repo-container" id="repositories"></div>
+      <div class="pagination" id="pagination"></div>
+    </div>
+    <div class="loader" id="loader"></div>
+    <div id="error">Ooops Something went wrong Please try again...</div>
+    <script src="script.js"></script>
+  </body>
+</html>
