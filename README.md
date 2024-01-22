@@ -22,8 +22,10 @@ Check out the "screenshots" folder to see the project in action.
    ```bash
    git clone https://github.com/rahilansari261/fyle-work.git
 
-or download the files and double-click the index.html file it will run on the browser.
-   
+or download the files and double-click the index.html file it will run on the browser.   
+
+2. **You can visit the app here:** 
+https://fyle-work.vercel.app/
 
 ## light mode 
 
